@@ -1,0 +1,96 @@
+body{
+     background-image: url("/imgs/bs.jpg");
+}
+
+*{
+    font-family: american typewriter;
+    text-align: center;
+}
+
+header{
+    background-color: #DC143C;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+}
+
+.topnav{
+    display: flex;
+    font-weight: bold;
+}
+
+nav > ul{
+    justify-content: space-between;
+}
+
+ul > li{
+    background-color: #f2e7bf;
+    border: 2px solid black;
+    padding: 3px;
+    border-radius: 45px;
+    height: auto;
+    width: auto;
+}
+
+header li>a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+}
+
+h1{
+    background-color: white;
+    opacity: 0.8;
+}
+
+.IntBlok{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#TextAc{
+    border: 5px, solid white;
+    color: black;
+    font-size: 50px;
+    font-style: italic;
+    justify-content: center;
+    background-color: white;
+    opacity: 0.75;
+}
+
+#foot{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    border: 3px solid red;
+    width: auto;
+    background: red;
+    opacity: 50;
+}
+
+.infos{
+    display: flex;
+
+}
+
+.misc{
+    display: flex;
+}
+
+.prof{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    padding-left: 25px;
+    background-color: beige;
+}
+
+.formu{
+    display: inline-block;
+    background-color: beige;
+    width: max-content;
+    justify-content: center;
+}
