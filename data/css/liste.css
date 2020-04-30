@@ -1,0 +1,16 @@
+.column{
+    font-size: 25px;
+    border: black;
+    background-color: orange;
+}
+
+.cover{
+    height: 100px;
+    width: 100px;
+}
+
+table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
